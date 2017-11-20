@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neon Demom</title>
+	<!-- This is where the style sheet is linked -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+   /* Here is some internal styling
+
+    This styles the sub header's tag line*/
+    h3 {
+    	font-family: '718', sans-serif;
+    	font-weight: 100;
+    	color: white;
+    	text-align: center;
+    	font-size: 22px;
+    	margin-bottom: -30px;
+    }
+    /*Here is where I set the background image, and the background behind it, incase a browser window strethes past the picture*/
+    body {
+	background-image: url(Backgrounds/Neon-BG-4.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+	}
+
+p {
+	font-family: '718', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	margin: 30px;
+	right-margin: 250px;
+	text-shadow: 2px 2px 2px #000000;
+	}
+
+/*this keeps the menu from breaching the header/logo*/
+	#menu-container {
+		position: relative;
+	}
+/*this is some styling for the underlying white menu graphic. It maintains its position.*/
+	#toptri {
+		position: absolute;
+		right: 500px;
+		top: 50px;
+		z-index: -1;
+		backface-visibility: hidden;
+	}
+		#MainAuthor {
+			position: absolute;
+			right: 719px;
+			top: 99px;
+			z-index: 2
+
+		}
+		#MainChar {
+			position: absolute;
+			right: 510px;
+			top: 99px;
+			z-index: 3
+		}
+		#MainVideos {
+			position: absolute;
+			right: 615px;
+			top: 279px;
+			z-index: 0
+			opacity: 0%;
+		}
+
+	#synopsis {
+		display: flex;
+		margin-top: 470px;
+	}
+
+</style>
+</head>
+<body>
+	<header>
+			<img src="neon-logo.png" style="width: 35%">
+	</header>
+	<h5>A Film by Nicolas Winding Refn</h5>
+<h3>Beauty isn't everything. It’s the only thing.</h3>
+<div id="menu-container">
+		<div id="toptri">
+			<img src="Main-Pg-Menu-Elements/Main-Menu-Tri.png" alt="big menu" height="450" width="450">
+		</div>
+		<div id="MainVideos" >
+			<a href="videos.html"><img src="Main-Pg-Menu-Elements/vid-tri.png" alt="big menu" height="200" width="220">
+		</div>
+		<div id="MainChar">
+			<a href="characters.html"><img src="Main-Pg-Menu-Elements/char-tri.png" alt="big menu" height="200" width="220">
+		</div>
+		<div id="MainAuthor">
+			<a href="director.html"><img src="Main-Pg-Menu-Elements/auth-tri.png" alt="big menu" height="200" width="220">
+		</div>
+</div>	
+	
+<div id="synopsis">
+	<p> Jesse moves to Los Angeles just after her 16th birthday to launch a career as a model. The head of her agency tells the innocent teen that she has the qualities to become a top star. Jesse soon faces the wrath of ruthless vixens who despise her fresh-faced beauty. On top of that, she must contend with a seedy motel manager and a creepy photographer. As Jesse starts to take the fashion world by storm, her personality changes in ways that could help her against her cutthroat rivals. Then Jesse dies.
+	</p>
+	</div>	
+
+</body>
+</html>

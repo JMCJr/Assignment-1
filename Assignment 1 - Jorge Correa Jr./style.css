@@ -1,0 +1,78 @@
+/*Neon Demon*/
+
+@import url('https://fonts.googleapis.com/css?family=Yantramanav|Lato:300,400');
+
+@font-face {
+    font-family: 718;
+    font-weight: 100;
+    src: url("718-font/SevenOneEight-ExtraThin.otf") format("opentype");
+}
+@font-face {
+    font-family: 718;
+    font-weight: thin;
+    src: url("718-font/SevenOneEight-Thin.otf") format("opentype");
+}
+@font-face {
+    font-family: 718;
+    font-weight: medium;
+    src: url("718-font/SevenOneEight-Medium.otf") format("opentype");
+}
+
+h2 {
+	font-family: '718', sans-serif;
+	font-size: 36px;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	margin-top: -40px;
+}
+
+ img {
+		display: block;
+		margin: 0 auto;
+		margin-top: -40px;
+		/*position: absolute;*/
+}
+h5 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	margin-top: -50px;
+}
+
+#quotes {
+	font-size: 20px,
+	color: rgb(72, 177, 218);
+	text-align: left;
+}
+
+
+
+.menu {
+	display: flex;
+	position: relative;
+	flex-flow: column;
+	padding: 45px;
+	height: 30px;
+	width: 50px;
+	margin-top: 20px; /*spaces/spreads out the menu items more*/
+	z-index: 0;
+}
+.overlay {
+	display: flex;
+	position: absolute;
+	flex-flow: column;
+	/*padding: 15px;*/
+	height: 30px;
+	width: 50px;
+	opacity: 0;
+	transition: 1s ease;
+	/*margin-top: 5px;*/
+	z-index: 1;
+}
+.menu:hover .overlay {
+  opacity: 1;
+}
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Characters</title>
+	<!-- This is where the style sheet is linked -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+
+    /* Here is some internal styling
+
+    /*Here is where I set the background image, and the background behind it, incase a browser window strethes past the picture*/
+    body {
+	background-image: url(Backgrounds/Neon-BG-2-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+q {
+	font-size: 20px,
+	color: rgb(162, 40, 161);
+	text-align: left;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    flex-flow: row;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-left: 100px;
+    font-size: 22px;
+    color: rgb(72, 177, 218);
+}
+
+.popup-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 550px;
+    height: 670px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.popup:hover .popup-content {
+    display: flex;
+    position: absolute;
+    margin-top: 1px;
+    font: 10px;
+    bottom: 100%;
+}
+
+</style>
+</head>
+<body>
+	<header><a href="index.html"><img src="neon-logo.png" style="width: 35%"></a>
+	</header>
+<h2>THE CHARACTERS</h2>
+
+<div class="menu">
+	<img src="Side-Menu-Elements/main-side-wt.png" alt="Main menu" height="70" width="70">
+	<div class="overlay">
+		<a href="index.html"><img src="Side-Menu-Elements/main-side-clr.png" alt="Main menu" height="70" width="70">
+	</div></a>
+</div>
+	
+<div class="menu">
+	<img src="Side-Menu-Elements/auth-side-wt.png" alt="Main menu" height="70" width="70">
+	<div class="overlay">
+		<a href="director.html"><img src="Side-Menu-Elements/auth-side-clr.png" alt="Main menu" height="70" width="70"></a>
+	</div>
+</div>
+
+<div class="menu">
+	<img src="Side-Menu-Elements/chara-side-wt.png" alt="Main menu" height="70" width="70">
+	<div class="overlay">
+		<a href="characters.html"><img src="Side-Menu-Elements/chara-side-clr.png" alt="Main menu" height="70" width="70"></a>
+	</div>
+</div>
+
+<div class="menu">
+	<img src="Side-Menu-Elements/vid-side-wt.png" alt="Main menu" height="70" width="70">
+	<div class="overlay">
+		<a href="videos.html"><img src="Side-Menu-Elements/vid-side-clr.png" alt="Main menu" height="70" width="70"></a>
+	</div>
+</div>
+
+<div class="popup">
+  <span id="char-name">Jesse</span>
+  <div class="popup-content">
+    <img src="Character-Pics/jesse.png" height="450">
+    <h6 id= "char-in-pop">Jesse</h6>
+    <q id="quotes">"When I was a kid, I would sneak out to the roof at night; I thought the moon looked like a big round eye. And I would look up and I'd say, "Do you see me?". Ya know, I'd stay out there for hours. Sometimes I'd fall asleep, just dreaming."" - Jesse</q>
+  </div>
+</div>
+
+<div class="popup">
+  <span id="char-name">Ruby</span>
+  <div class="popup-content">
+    <img src="Character-Pics/ruby.png" height="450">
+    <h6 id= "char-in-pop">Ruby</h6>
+    <q id="quotes">"Ruby: Am I staring?<br>
+Jesse: A little.<br>
+Ruby: Sorry... you just have such beautiful skin. I'm Ruby by the way. Do you have a name or you want me to guess?<br>
+Jesse: Jesse.<br>
+Ruby: Jesse. And you just get to LA Jesse?<br> 
+Jesse: How'd you know?<br>
+Ruby: You've got that look. Oh don't worry honey, that whole deer in the headlights thing is exactly what they want.</q>
+  </div>
+</div>
+
+<div class="popup">
+  <span id="char-name">Sarah</span>
+  <div class="popup-content">
+    <img src="Character-Pics/sarah.png" height="450">
+    <h6 id= "char-in-pop">Sarah</h6>
+    <q id="quotes">Sarah: What's it feel like?<br>
+Jesse: What do you mean?<br>
+Sarah: To walk into a room, and it's like in the middle of winter. You're the sun.<br>
+Jesse: It's everything.</q>
+  </div>
+</div>
+
+<div class="popup">
+  <span id="char-name">Hank</span>
+  <div class="popup-content">
+    <img src="Character-Pics/hank.png" height="450">
+    <h6 id= "char-in-pop">Hank</h6>
+    <q id="quotes">Jesse: Something's in my room!<br>
+Hank: What do you mean something's in your room?<br>
+Jesse: I saw something in my room!<br>
+Hank: Are you high?</q>
+  </div>
+</div>
+
+<div class="popup">
+  <span id="char-name">Jan</span>
+  <div class="popup-content">
+    <img src="Character-Pics/jan.png" height="450">
+    <h6 id= "char-in-pop">Jan</h6>
+    <q id="quotes">"I see twenty or thirty girls come in here everyday. From small towns, with big dreams. Some girls crack under the pressure. You... You're going to be great."" - Jan</q>
+  </div>
+</div>
+
+</body>
+</html>

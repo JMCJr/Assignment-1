@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>videos</title>
+	<!-- This is where the style sheet is linked -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style type="text/css">
+    /* Here is some internal styling
+
+    /*Here is where I set the background image, and the background behind it, incase a browser window strethes past the picture*/
+
+    body {
+	background-image: url(Backgrounds/Neon-BG.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+video {
+	display: flex;
+	margin-top: -550px;
+	margin-left: 200px;
+}
+</style>
+</head>
+<body>
+	<header><a href="index.html"><img src="neon-logo.png" style="width: 35%"></a>
+	</header>
+	<h2>THE NEON THEATRE</h2>
+
+<div class="menu">
+	<img src="Side-Menu-Elements/main-side-wt.png" alt="Main menu" height="70" width="70">
+	<div class="overlay">
+		<a href="index.html"><img src="Side-Menu-Elements/main-side-clr.png" alt="Main menu" height="70" width="70">
+	</div></a>
+</div>
+	
+<div class="menu">
+	<img src="Side-Menu-Elements/auth-side-wt.png" alt="Main menu" height="70" width="70">
+	<div class="overlay">
+		<a href="director.html"><img src="Side-Menu-Elements/auth-side-clr.png" alt="Main menu" height="70" width="70"></a>
+	</div>
+</div>
+
+<div class="menu">
+	<img src="Side-Menu-Elements/chara-side-wt.png" alt="Main menu" height="70" width="70">
+	<div class="overlay">
+		<a href="characters.html"><img src="Side-Menu-Elements/chara-side-clr.png" alt="Main menu" height="70" width="70"></a>
+	</div>
+</div>
+
+<div class="menu">
+	<img src="Side-Menu-Elements/vid-side-wt.png" alt="Main menu" height="70" width="70">
+	<div class="overlay">
+		<a href="videos.html"><img src="Side-Menu-Elements/vid-side-clr.png" alt="Main menu" height="70" width="70"></a>
+	</div>
+</div>
+
+<video width="1000" controls>
+  <source src="videos/The-Demon-Dance.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+
+</body>
+</html>
